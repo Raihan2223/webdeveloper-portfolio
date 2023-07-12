@@ -3,7 +3,6 @@ body {
     font-family: 'lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
 .text-primary {
     color: #FD6E0A;
 }
@@ -58,9 +57,9 @@ nav a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -166,7 +165,8 @@ main section {
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -175,27 +175,35 @@ main section {
 .resume-item-description {
     color: #757575;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"], textarea{
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
